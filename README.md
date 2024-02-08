@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+This project is a web application for managing posts. In the application, users can view, create, edit, and delete posts. Each post consists of a title and content. The main functions of the project include:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Displaying a list of posts**: Users can view a list of all available posts. Each post is displayed with its title and a brief summary of its content.
 
-## Available Scripts
+**Adding a new post**: Users can create new posts by entering a title and content for each one. After creating a post, it is automatically added to the list.
 
-In the project directory, you can run:
+**Editing an existing post**: Users have the ability to change the title and content of existing posts. When selecting a specific post, a modal editing window opens, allowing users to make necessary changes.
 
-### `npm start`
+**Deleting a post**: Users can delete any post from the list. A confirmation dialog appears when deleting to prevent accidental removal.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Pagination**: Pagination is used to manage a large volume of posts. Users can navigate between pages to view additional posts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Searching and sorting**: Users can search posts by title and content, as well as sort them by various criteria such as creation date or title.
 
-### `npm test`
+**Error handling**: In case of errors during post operations, users receive notifications with error information and instructions for resolution.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is a simple yet effective web application for managing posts, providing a user-friendly interface for interacting with content.
