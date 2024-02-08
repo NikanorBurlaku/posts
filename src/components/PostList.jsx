@@ -7,7 +7,7 @@ const PostList = ({ posts, remove, setModal,setUpdatedPost }) => {
     if (!posts.length) {
         return (
             <h1 style={{ textAlign: 'center' }}>
-                Посты не найдены!
+                Posts not found!
             </h1>
         )
     }
