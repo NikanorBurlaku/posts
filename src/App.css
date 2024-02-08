@@ -11,6 +11,7 @@ body{
   max-width: 800px;
   padding: 0 20px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .post {
@@ -36,6 +37,7 @@ body{
 
 .buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 10px;
 }
@@ -130,6 +132,7 @@ header {
 .posts__header {
   display: flex;
   align-items: center;
+  box-sizing: border-box;
   gap: 10px;
   width: 100%;
   max-width: 800px;
@@ -141,6 +144,7 @@ header {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  box-sizing: border-box;
   width: 200px;
 }
 
@@ -161,4 +165,13 @@ header {
 
 .login form {
   text-align: center;
+}
+@media (max-width: 480px) {
+  .posts__header{
+    flex-direction: column;
+  }
+  .posts__header *{
+    width: 100%;
+    max-width: 200px;
+  }
 }

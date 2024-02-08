@@ -4,7 +4,7 @@ import MySelect from './MySelect';
 
 const PostFilter = ({ filter, setFilter }) => {
     return (
-        <div>
+        <>
 
             <input placeholder='search'
                 value={filter.search}
@@ -23,7 +23,7 @@ const PostFilter = ({ filter, setFilter }) => {
                     { value: 'body', name: 'by body' },
                 ]}
             />
-        </div>
+        </>
     );
 };
 
