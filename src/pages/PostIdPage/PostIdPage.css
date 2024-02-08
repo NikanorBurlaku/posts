@@ -1,0 +1,52 @@
+.posts__container {
+    width: 100%;
+    max-width: 800px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  
+  .post {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .post h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .post p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .comments {
+    margin-top: 20px;
+  }
+  
+  .comments h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .comment {
+    border-left: 4px solid #333; /* Добавляем левую границу для отличия комментариев */
+    padding-left: 10px; /* Отступ слева от левой границы */
+    margin-bottom: 10px;
+  }
+  
+  .comment p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px; /* Отступ между текстом комментария и его автором */
+  }
+  
+  
+  

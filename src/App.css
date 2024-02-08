@@ -1,0 +1,164 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+.App {
+  text-align: center;
+
+}
+
+.posts__container {
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.post {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.post h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.post p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ff6347;
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: #ff3b20;
+}
+
+.open-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.open-button:hover {
+  background-color: #0056b3;
+}
+
+.comment-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.comment-button:hover {
+  background-color: #218838;
+}
+
+.update-button {
+  background-color: orange;
+  color: white;
+}
+
+.update-button:hover {
+  background-color: darkorange;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 760px;
+  margin: 0 auto 20px;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+.header__btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header__btn:hover {
+  background-color: #0056b3;
+}
+
+.posts__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.posts__header input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.posts__header select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.posts__header option {
+  font-size: 14px;
+}
+
+.login {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.login form {
+  text-align: center;
+}

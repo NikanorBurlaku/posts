@@ -1,0 +1,30 @@
+.page__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page {
+    cursor: pointer;
+    padding: 8px 12px;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .page:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .current_page {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  .current_page:hover {
+    background-color: #0056b3; /* Измененный цвет фона при наведении */
+    border-color: #0056b3; /* Измененный цвет границы при наведении */
+  }
+  
+  
